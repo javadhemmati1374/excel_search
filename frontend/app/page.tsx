@@ -5,10 +5,8 @@ import { useState } from "react";
 import SearchForm from "@/components/SearchForm";
 import FileUpload from "@/components/FileUpload";
 import DataTable from "@/components/DataTable";
-import { columns } from "@/components/DataTable/columns";
 import { PhoneData } from "@/types";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 
 export default function Home() {
   const [searchResults, setSearchResults] = useState<PhoneData[]>([]);

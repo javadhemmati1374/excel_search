@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { MainNav } from "@/components/main-nav";
-import { ModeToggle } from "@/components/mode-toggle";
 
 export function Header() {
   return (
@@ -12,9 +11,6 @@ export function Header() {
           <span className="text-xl font-bold">Excel Search</span>
         </Link>
         <MainNav className="mx-6" />
-        <div className="ml-auto flex items-center space-x-4">
-          <ModeToggle />
-        </div>
       </div>
     </div>
   );
