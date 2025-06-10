@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -19,9 +23,19 @@
     ],
     "baseUrl": ".", // اضافه کردن این خط هم خوب است، هرچند Next.js اغلب خودش مدیریت می‌کند
     "paths": {
-      "@/*": ["./*"] // <--- تغییر اصلی اینجاست
-    }
+      "@/*": [
+        "./*"
+      ] // <--- تغییر اصلی اینجاست
+    },
+    "target": "ES2017"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
