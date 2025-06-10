@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
-import { setToken } from "@/lib/auth";
+import { setToken } from "../lib/auth";
 
 export default function LoginForm() {
   const [username, setUsername] = useState("");

@@ -1,8 +1,8 @@
 "use client";
-import RequireAuth from "@/components/RequireAuth";
-import SearchForm from "@/components/SearchForm";
-import DataTable from "@/components/DataTable";
-import { removeToken } from "@/lib/auth";
+import RequireAuth from "../../components/RequireAuth";
+import SearchForm from "../../components/SearchForm";
+import DataTable from "../../components/DataTable";
+import { removeToken } from "../../lib/auth";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

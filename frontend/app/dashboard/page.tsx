@@ -1,9 +1,9 @@
 "use client";
 
-import RequireAuth from "@/components/RequireAuth";
-import FileUpload from "@/components/FileUpload";
-import FileManager from "@/components/FileManager";
-import { removeToken } from "@/lib/auth";
+import RequireAuth from "../../components/RequireAuth";
+import FileUpload from "../../components/FileUpload";
+import FileManager from "../../components/FileManager";
+import { removeToken } from "../../lib/auth";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
