@@ -1,8 +1,0 @@
-CREATE TABLE IF NOT EXISTS excel_data (
-    id SERIAL PRIMARY KEY,
-    file_id INTEGER NOT NULL REFERENCES files(id) ON DELETE CASCADE,
-    data JSONB NOT NULL,
-    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE INDEX IF NOT EXISTS idx_excel_data_file_id ON excel_data(file_id); 
